@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    font-family: "Barlow Semi Condensed", sans-serif;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  .container {
+    width: 375px;
+    margin: 0 auto;
+    padding: 95px 32px;
+  }
+
+  .container h1 {
+    text-align: center;
+    margin-bottom: 113px;
+    color: #3B4262;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .rules_img {
+    margin-bottom: 154px;
+  }
+
+  a img {
+    width: 20px;
+    margin: 0 auto;
+  }

@@ -1,0 +1,182 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    font-family: "Barlow Semi Condensed", sans-serif;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  body {
+    background: radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .container {
+    width: 375px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 105px;
+  }
+
+  .header h1 {
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    margin: 12px;
+  }
+
+  .scoreboard {
+    background-color: white;
+    border-radius: 4px;
+    width: 80px;
+    height: 72px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .scoreboard h3 {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 1.5625px;
+    text-align: center;
+    color: #2A45C2;
+  }
+
+  .scoreboard h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #565468;
+  }
+
+  .game_buttons {
+    position: relative;
+    width: 312px;
+    margin-bottom: 139px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 40px;
+  }
+
+.image_buttons {
+    width: 128px;
+}
+
+  .triangle {
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    z-index: -1;
+  }
+
+  .rules {
+    width: 128px;
+    margin: 0 auto;
+  }
+
+  .rules a {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 11px 36px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    letter-spacing: 2.5px;
+    text-align: center;
+  }
+
+  @media(width >= 1366px) {
+    
+    .container {
+      width: 1366px;
+    }
+
+    .header {
+      width: 700px;
+      height: 150px;
+      margin: 0 auto;
+      margin-bottom: 64px;
+      border-radius: 12px;
+    }
+
+    .header h1 {
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 33px;
+    }
+
+    .scoreboard {
+      width: 150px;
+      height: 114px;
+      margin: 6px 12px;
+      padding-top: 25px;
+    }
+
+    .scoreboard h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .scoreboard h2 {
+      font-size: 65px;
+    }
+
+    .game_buttons {
+      width: 476px;
+      margin: 0 auto;
+      margin-bottom: 15px;
+    }
+
+    .game_buttons img {
+      width: 198px;
+    }
+
+    .triangle {
+      top: 99px;
+      left: 144px;
+    }
+
+    .rules {
+      margin: 0px;
+    }
+
+    .rules a {
+      margin-left: 1156px;
+    }
+
+  }
